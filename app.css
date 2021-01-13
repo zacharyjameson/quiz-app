@@ -43,6 +43,7 @@ header {
   background-image: url("images/lotr-background.jpg");
   text-align: center;
   padding-bottom: 20px;
+  width: 100%;
 }
 
 header img {
@@ -57,7 +58,6 @@ h1 {
 
 h3 {
   text-align: center;
-  padding: 40px 40px 0 0;
 }
 
 .question-score {
@@ -149,7 +149,7 @@ label {
   padding: 10px;
   font-size: 16px;
   margin: 5px 20px;
-  width: 300px;
+  width: 39%;
   border: 2px solid #fe0000;
   border-radius: 6px;
 }
