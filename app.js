@@ -143,7 +143,7 @@ function generateResults() {
         <fieldset>
           <div class="row">
             <div class="col-12">
-              <legend>Final Result: ${STORE.score}/${STORE.questions.length}</legend>
+              <div class="results">Final Result: ${STORE.score}/${STORE.questions.length}</div>
             </div>
 
           <div class="row">
