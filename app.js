@@ -21,7 +21,7 @@ const STORE = {
         "37-16",
         "28-3",
         "It was a tie",
-        "Gimlie actually lost"
+        "Legolas actually won"
       ],
       correctAnswer: "43-42"
     },
