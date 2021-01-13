@@ -80,7 +80,8 @@ const STORE = {
 function generateQuizStartScreen() {
   return `
     <div class="startScreen">
-      <h2>Fool of a Took! Click the button below to test your knowledge.</h2>
+      <h2>Fool of a Took!</h2>
+      <h2>Click the button below to test your knowledge.</h2>
       <button type="button" id="startButton">Begin Quiz</button>
       </div>
   `;
