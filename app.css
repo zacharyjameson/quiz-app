@@ -26,7 +26,7 @@ body {
   color: black;
   margin: 0;
   background-color: #262626;
-  background-image: url("/images/lotr-background.jpg");
+  background-image: url("images/lotr-background.jpg");
   background-position: top center;
 }
 
@@ -40,7 +40,7 @@ header {
   font-family: someFormOfElvish;
   border-bottom: 5px solid #b19cd9;
   color: white;
-  background-image: url("/images/lotr-background.jpg");
+  background-image: url("images/lotr-background.jpg");
   text-align: center;
   padding-bottom: 20px;
 }
