@@ -80,7 +80,7 @@ const STORE = {
 function generateQuizStartScreen() {
   return `
     <div class="startScreen">
-      <h3>Fool of a Took! Click the button below to test your knowledge.</h3>
+      <h2>Fool of a Took! Click the button below to test your knowledge.</h2>
       <button type="button" id="startButton">Begin Quiz</button>
       </div>
   `;
@@ -121,7 +121,7 @@ function generateQuestion() {
   return `
     <form id="question-form">
       <fieldset>
-        <div class="question" class="quesiton-form">
+        <div class="question">
           <legend>${currentQuestion.question}</legend>
         </div>
         <div class="options">

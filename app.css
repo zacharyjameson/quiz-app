@@ -6,3 +6,181 @@
   * https://github.com/andreacardybailey/responsive_example/blob/master/styles/responsive-base.css 
   *
 */
+
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: someFormOfElvish;
+  src: url(Middleearth-ao6m.ttf);
+} 
+
+@font-face {
+  font-family: olafur;
+  src: url(BandeinsStrangeVariable.ttf);
+}
+
+body {
+  font-family: olafur, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: black;
+  margin: 0;
+  background-color: #262626;
+  background-image: url("../images/lotr-background.jpg");
+  background-position: top center;
+}
+
+body img {
+  width: 100%;
+  height: auto;
+}
+
+header {
+  padding: 40px 0 0 0;
+  font-family: someFormOfElvish;
+  border-bottom: 5px solid #b19cd9;
+  color: white;
+  background-image: url("../images/lotr-background.jpg");
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+header img {
+  background-position: center bottom;
+}
+
+h1 {
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  font-size: 3em;
+}
+
+h3 {
+  text-align: center;
+  padding: 40px 40px 0 0;
+}
+
+.question-score {
+  font-size: 16px;
+  font-weight: 600px;
+  color:white;
+  list-style: none;
+  text-align: center;
+  padding-left: 0;
+}
+
+button {
+  margin-top:10px;
+  height: auto;
+  font-size: 18px;
+  font-weight: 500;
+  text-align: center;
+  color:white;
+  background: #0E484E;
+  border: 0;
+  cursor: pointer;
+  margin-bottom: 0;
+  border-radius:6px;
+  padding: 10px 20px;
+  width: 129px;
+}
+
+.startScreen, fieldset {
+  width: 70%;
+  padding: 40px;
+  margin: 55px auto 0 auto;
+  background:rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+}
+
+.startScreen {
+  text-align: center;
+  justify-content: center;
+}
+
+.startScreen h3 {
+  text-align: center;
+}
+
+legend {
+  font-weight: 700;
+  font-size: 18px;
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+#question-form {
+  margin-bottom: 0px;
+  padding: 0 2%;
+  font-size: 20px;
+  font-weight: 600px;
+}
+
+.options ul {
+  list-style: none;
+  margin: 0;
+  text-align: left;
+}
+
+label {
+  font-size: 16px;
+}
+
+.options {
+  display:block;
+  border-radius:5px;
+}
+
+.right-answer {
+ background:ivory;
+ padding: 10px 20px;
+ font-size: 16px;
+ margin: 5px 20px;
+ width: 100px;
+ border:2px solid #adff2f;
+}
+
+.wrong-answer {
+  background:ivory;
+  padding: 10px;
+  font-size: 16px;
+  margin: 5px 20px;
+  width: 300px;
+  border:2px solid #fe0000;
+}
+
+#question-form #submit-answer-button {
+  float: left;
+}
+
+#question-form #next-question-button {
+  float: right;
+}
+
+button:hover:enabled,
+button:focus:enabled{
+  background-color: #b19cd9;
+  -webkit-transition: background 0.1s;
+  -moz-transition: background 0.1s;
+  -o-transition: background 0.1s;
+  transition: background 0.1s;
+}
+
+button:disabled {
+  opacity:0.5;
+}
+
+#next-question-button {
+  display: none;
+}
+
+@media all and (min-width: 800px){
+  legend {
+    width: auto;
+    margin-left: 0;
+    margin-right: 0;
+    text-align: left;  }
+}
