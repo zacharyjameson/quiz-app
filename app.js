@@ -15,7 +15,7 @@ const STORE = {
     },
     {
       question:
-        "Gimli won the battle of killing orcs by what score at Helm's Deep?",
+        "Gimli won the contest of killing orcs by what score at the battle of Helm's Deep?",
       answers: [
         "43-42",
         "37-16",
