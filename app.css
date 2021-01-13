@@ -155,7 +155,7 @@ label {
 }
 
 #question-form #submit-answer-button {
-  float: left;
+  float: right;
 }
 
 #question-form #next-question-button {
@@ -201,5 +201,9 @@ button:disabled {
 
   h1 {
     font-size: 3em;
+  }
+
+  #question-form #submit-answer-button {
+    float: left;
   }
 }
